@@ -1,0 +1,44 @@
+.badge-primary {
+  color: #fff;
+  background-color: #4e73df;
+  /*padding: 2px;*/
+}
+
+#customnav {
+  background-color: #2f2a2f;
+}
+
+.headline {
+  font-size: 20px;
+  color: black;
+}
+
+.topic-badge {
+  background-color: #fc7c0b;
+}
+
+.location {
+  padding: 7px;
+}
+
+.top-events {
+  font-size: 25px;
+}
+
+#company-heading {
+  margin-top: 10px;
+}
+
+.card-body.events-cards {
+  margin: auto;
+}
+
+.dash-link {
+  font-size: 18px;
+  /*padding-left: 0px;*/
+}
+
+.dash-link.dash-link-text {
+  padding-left: 5px;
+}
+
