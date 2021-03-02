@@ -25,6 +25,10 @@ mongoose
 app.use("/events", eventsRouter);
 app.use("/map", mapRouter);
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("./../build"));
+}
+
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });
