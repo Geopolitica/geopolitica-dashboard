@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import CountryBadge from "./../common/CountryBadge";
+import CountryBadge from "../common/CountryBadge";
 import findCountryName from "../../tasks/FindCountryName";
 
 // export default CountryBadge;
@@ -29,7 +29,7 @@ export default class TrendingTopics extends Component {
   componentDidMount() {
     console.log(this.props);
     axios
-      .get("http://localhost:5000/events/topics")
+      .get("https://geopolitica-dashboard.herokuapp.com/events/topics")
       .then((response) => {
         this.setState({ topics: response.data });
       })

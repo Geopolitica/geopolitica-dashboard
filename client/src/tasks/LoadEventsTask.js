@@ -11,7 +11,7 @@ export default class LoadEventsTask {
     this.setState = setState;
 
     axios
-      .get("http://localhost:5000/events/countries")
+      .get("https://geopolitica-dashboard.herokuapp.com/events/countries")
       .then((result) => this.#processData(result.data))
       .catch((error) => console.log(error));
   };

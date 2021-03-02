@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-import EventCard from "./../common/EventCard";
+import EventCard from "../common/EventCard";
 
 export default class CountryEvents extends Component {
   constructor(props) {
@@ -12,7 +12,9 @@ export default class CountryEvents extends Component {
   componentDidMount() {
     console.log(this.props.code);
     axios
-      .get(`http://localhost:5000/events/countries/code/${this.props.code}`)
+      .get(
+        `https://geopolitica-dashboard.herokuapp.com/events/countries/code/${this.props.code}`
+      )
       .then((response) => {
         this.setState({ events: response.data });
         console.log(this.state);

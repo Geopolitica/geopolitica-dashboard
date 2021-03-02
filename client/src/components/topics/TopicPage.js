@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 import TopicEvents from "./TopicEvents";
-import UnderConstructionBanner from "./../common/UnderConstructionBanner";
+import UnderConstructionBanner from "../common/UnderConstructionBanner";
 
 export default function TopicPage() {
   const { topic } = useParams();
