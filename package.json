@@ -28,8 +28,8 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "concurrently -n 'server,client' -c 'red,green' \"nodemon server.js\" \"npm run client\"",
-    "dev": "concurrently -n 'server,client' -c 'red,green' \"nodemon server.js\" \"npm run client\"",
+    "start": "concurrently -n 'server,client' -c 'red,green' \"node server.js\" \"npm run client\"",
+    "dev": "concurrently -n 'server,client' -c 'red,green' \"node server.js\" \"npm run client\"",
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
