@@ -10,7 +10,7 @@ export default class EventList extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:5000/events/")
+      .get("https://geopolitica-dashboard.herokuapp.com/events/")
       .then((response) => {
         // console.log(response);
         this.setState({ events: response.data });

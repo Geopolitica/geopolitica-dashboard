@@ -18,8 +18,8 @@ export default function App() {
       <Navbar />
       <br />
       <Route exact path="/home" component={Dashboard} />
-      <Route path="/events/countries/code/:code" component={CountryPage} />
-      <Route path="/events/topics/:topic" component={TopicPage} />
+      <Route path="/countries/:code" component={CountryPage} />
+      <Route path="/topics/:topic" component={TopicPage} />
       <Footer />
     </Router>
   );

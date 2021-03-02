@@ -11,7 +11,7 @@ export default function Dashboard() {
       <WelcomeBanner />
       <div className="container-fluid">
         <div className="row">
-          <div className="col-4 col-lg-7 col-xl-8 offset-xl-0">
+          <div className="col-sm-12 col-lg-7 col-xl-8 offset-xl-0">
             <h3 className="text-muted m-3">Global Heatmap</h3>
             <div className="card shadow mb-4">
               <div className="card-body">

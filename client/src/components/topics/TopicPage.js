@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 import TopicEvents from "./TopicEvents";
-import UnderConstructionBanner from "./../common/UnderConstructionBanner";
+import UnderConstructionBanner from "../common/UnderConstructionBanner";
 
 export default function TopicPage() {
   const { topic } = useParams();
@@ -18,7 +18,7 @@ export default function TopicPage() {
             <h4 className="text-muted m-3">Recent Events</h4>
             <TopicEvents topic={topic} />
           </div>
-          <div className="col-4 col-lg-7 col-xl-8 offset-xl-0">
+          <div className="col-lg-7 col-xl-8 offset-xl-0">
             <h4 className="text-muted m-3">More Information</h4>
             <div className="card shadow mb-4">
               <div className="card-body">

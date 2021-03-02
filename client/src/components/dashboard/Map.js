@@ -3,7 +3,7 @@ import Loading from "./Loading";
 import GlobalHeatmap from "./GlobalHeatmap";
 import Legend from "./Legend";
 import LoadCountriesTask from "../../tasks/LoadCountriesTask";
-import legendItems from "./../../entities/LegendItems";
+import legendItems from "../../entities/LegendItems";
 
 export default function Map() {
   const [countries, setCountries] = useState([]);

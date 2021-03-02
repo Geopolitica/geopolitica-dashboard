@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import CountryEvents from "./CountryEvents";
 import CountryProfile from "./CountryProfile";
-import UnderConstructionBanner from "./../common/UnderConstructionBanner";
+import UnderConstructionBanner from "../common/UnderConstructionBanner";
 import findCountryName from "../../tasks/FindCountryName";
 
 const CountryPage = () => {

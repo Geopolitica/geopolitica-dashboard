@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import EventCard from "./../common/EventCard";
+import EventCard from "../common/EventCard";
 import axios from "axios";
 
 export default class TopicEvents extends Component {
@@ -10,7 +10,9 @@ export default class TopicEvents extends Component {
 
   componentDidMount() {
     axios
-      .get(`http://localhost:5000/events/topics/${this.props.topic}`)
+      .get(
+        `https://geopolitica-dashboard.herokuapp.com/events/topics/${this.props.topic}`
+      )
       .then((response) => {
         this.setState({ events: response.data });
       })
