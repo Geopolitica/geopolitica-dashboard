@@ -5,7 +5,9 @@ export default function TopicBadge({ topic }) {
   const url = `/topics/${topic}`;
   return (
     <a href={url}>
-      <span className="badge topic-badge m-1">{topic}</span>
+      <span key={topic} className="badge topic-badge m-1">
+        {topic}
+      </span>
     </a>
   );
 }

@@ -2,7 +2,7 @@
 
 > Real-time dashboard summarizing the main topics & locations from news gathered by the data collector.
 
-(screenshot)
+![Screenshot](https://github.com/Geopolitica/geopolitica-dashboard/blob/main/screenshot.png)
 
 ## Overview
 

@@ -18,7 +18,7 @@ export default function GlobalHeatmap({ countries }) {
     const mentionsText = country.properties.mentionsText;
     layer.bindPopup(
       `${name}: ${mentionsText} <br>
-      <a href="/events/countries/code/${code}">Go to profile</a>`
+      <a href="/countries/${code}">Go to profile</a>`
     );
   };
   return (
