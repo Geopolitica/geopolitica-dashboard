@@ -1,4 +1,4 @@
-# Geopolitica Dashboard
+# Geopolitica Dashboard 🌎
 
 > Real-time dashboard summarizing the main topics & locations from news gathered by the data collector.
 
