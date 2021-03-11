@@ -29,7 +29,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## To-dos
 
-- Render pages for countries & topics
+- ~~Render pages for countries & topics~~
 - Support user login
 - Improve NLP pipelines
 
@@ -40,19 +40,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - React
 - React-leaflet
 - Axios
+- Concurrently
+- Express
+- Bootstrap
 
 ## Sources
 
 Inspired by the following tutorials:
 
-- Covid Map
-- Denelius
-- MERN Tutorial
+- [Covid-19 Map](https://www.youtube.com/watch?v=4cliojOu3as)
+- [Leaflet map with Node.js and MongoDB](http://deneli.us/a-leaflet-map-with-node-js-and-mongodb/)
+- [Learn the MERN Stack](https://www.youtube.com/watch?v=7CqJlxBYj-M)
 
 And styled using [Bootstrap Studio](https://bootstrapstudio.io/).
 
 ## Contributors
 
-Brittany Witham
+[Brittany Witham](https://github.com/brittwitham)
 
 Pull requests welcome! Check out the To-dos.
